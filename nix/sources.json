@@ -1,0 +1,26 @@
+{
+    "nixpkgs": {
+        "branch": "nixos-unstable",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "85f1ba3e51676fa8cc604a3d863d729026a6b8eb",
+        "sha256": "0992mbqdvvkxy1gz8bzmqdx3kz5and17xik6d836p65vkll64ksz",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/85f1ba3e51676fa8cc604a3d863d729026a6b8eb.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "typhon": {
+        "branch": "dev",
+        "description": "Nix-based continuous integration",
+        "homepage": "https://typhon-ci.org/",
+        "owner": "typhon-ci",
+        "repo": "typhon",
+        "rev": "5a5015d70f65e2ff360413b98b2dcd1e03dd4440",
+        "sha256": "1ghyzn6gcmilfrkxjafs0xxmlh71gp9jla16bw3158gdrsdwxgh9",
+        "type": "tarball",
+        "url": "https://github.com/typhon-ci/typhon/archive/5a5015d70f65e2ff360413b98b2dcd1e03dd4440.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
