@@ -1,5 +1,5 @@
 {sources ? import ./sources.nix}: let
-  typhonLib = import "${sources.typhon}/nix/lib" {inherit sources;};
+  typhonLib = (import sources.typhon).lib;
 in
   typhonLib.mkSimpleProject {
     url = "github:typhon-ci/example-legacy";
