@@ -2,10 +2,10 @@
   typhonLib = (import sources.typhon).lib;
 in
   typhonLib.mkSimpleProject {
-    url = "github:typhon-ci/example-legacy";
+    url = "github:typhon-ci/example-classic";
     flake = false;
     refs = ["main"];
-    title = "Typhon Legacy Example";
+    title = "Typhon Classic Example";
     description = "An example of a Typhon project using niv";
-    homepage = "https://github.com/typhon-ci/example-legacy";
+    homepage = "https://github.com/typhon-ci/example-classic";
   }
