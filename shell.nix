@@ -6,8 +6,5 @@ let
   pkgs = import sources.nixpkgs { inherit system; };
 in
 pkgs.mkShell {
-  packages = [
-    pkgs.niv
-    pkgs.nixVersions.nix_2_18
-  ];
+  packages = [ pkgs.niv ];
 }
