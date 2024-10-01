@@ -5,10 +5,10 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "13aff9b34cc32e59d35c62ac9356e4a41198a538",
-        "sha256": "0ij9dq03b9awqfr0ys837cxlw6rzzjg1lnqhch81wpyvn892v5w0",
+        "rev": "06cf0e1da4208d3766d898b7fdab6513366d45b9",
+        "sha256": "0l68zz8mn2kvp9wvc6rgw7dns8vkl7w9y6z92blvgn1wnm9ib6ab",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/13aff9b34cc32e59d35c62ac9356e4a41198a538.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/06cf0e1da4208d3766d898b7fdab6513366d45b9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "typhon": {
@@ -17,10 +17,10 @@
         "homepage": "https://typhon-ci.org/",
         "owner": "typhon-ci",
         "repo": "typhon",
-        "rev": "f4bafa37cc195831d7ed6f52ef69b0de5b880b9f",
-        "sha256": "13bb3d6fwy904vv6mqg7b46dv0gvkp692vx3f77v2scj40q6wd6n",
+        "rev": "fa3482e240bdaea5170c00220a8709c51b6006d6",
+        "sha256": "03c5l7m9h30lfbl37990q4y1nwlx83wbqbqsz7bq892ir9jswhyr",
         "type": "tarball",
-        "url": "https://github.com/typhon-ci/typhon/archive/f4bafa37cc195831d7ed6f52ef69b0de5b880b9f.tar.gz",
+        "url": "https://github.com/typhon-ci/typhon/archive/fa3482e240bdaea5170c00220a8709c51b6006d6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
