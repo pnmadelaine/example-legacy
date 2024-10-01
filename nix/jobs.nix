@@ -4,7 +4,5 @@
   pkgs ? import sources.nixpkgs { inherit system; },
 }:
 {
-  ${system} = {
-    inherit (pkgs) hello;
-  };
+  inherit (pkgs) hello;
 }
