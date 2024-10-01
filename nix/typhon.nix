@@ -1,9 +1,7 @@
 {
   sources ? import ./sources.nix,
+  typhonLib ? (import sources.typhon).lib,
 }:
-let
-  typhonLib = (import sources.typhon).lib;
-in
 typhonLib.dummy.mkProject {
   url = "github:typhon-ci/example-classic";
   flake = false;

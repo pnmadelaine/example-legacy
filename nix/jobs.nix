@@ -1,10 +1,8 @@
 {
   sources ? import ./sources.nix,
+  system ? "x86_64-linux",
+  pkgs ? import sources.nixpkgs { inherit system; },
 }:
-let
-  system = "x86_64-linux";
-  pkgs = import sources.nixpkgs { inherit system; };
-in
 {
   ${system} = {
     inherit (pkgs) hello;
